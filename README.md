@@ -3,7 +3,7 @@
 DigitDetectANN is an ANN_MLP neural network for the MNIST dataset. Made with Opencv in C++.
 This is my first shot at making a neural network, so bear with it.
 
-# Recording
+# Screen Recording
 ![neuralNetworkRecording](https://github.com/user-attachments/assets/605872ab-ee90-4a7c-bcfe-778ff47e3e6b)
 
 # Library
