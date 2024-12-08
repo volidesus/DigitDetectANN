@@ -1,0 +1,3 @@
+C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/training/build/CMakeFiles/MNISTNeuralNetwork.dir
+C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/training/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/training/build/CMakeFiles/ZERO_CHECK.dir

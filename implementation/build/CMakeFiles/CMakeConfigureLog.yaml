@@ -1,0 +1,377 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+      Build started 08/12/2024 11:57:24.
+      
+      Project "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\3.30.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\3.30.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\3.30.0\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\3.30.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.91
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-6t77qc"
+      binary: "C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-6t77qc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "D:/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-6t77qc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_282f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 08/12/2024 11:57:26.
+        
+        Project "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6t77qc\\cmTC_282f5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_282f5.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6t77qc\\Debug\\".
+          Creating directory "cmTC_282f5.dir\\Debug\\cmTC_282f5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_282f5.dir\\Debug\\cmTC_282f5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_282f5.dir\\Debug\\cmTC_282f5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_282f5.dir\\Debug\\\\" /Fd"cmTC_282f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_282f5.dir\\Debug\\\\" /Fd"cmTC_282f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6t77qc\\Debug\\cmTC_282f5.exe" /INCREMENTAL /ILK:"cmTC_282f5.dir\\Debug\\cmTC_282f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-6t77qc/Debug/cmTC_282f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-6t77qc/Debug/cmTC_282f5.lib" /MACHINE:X64  /machine:x64 cmTC_282f5.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_282f5.vcxproj -> C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6t77qc\\Debug\\cmTC_282f5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_282f5.dir\\Debug\\cmTC_282f5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_282f5.dir\\Debug\\cmTC_282f5.tlog\\cmTC_282f5.lastbuildstate".
+        Done Building Project "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6t77qc\\cmTC_282f5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/absl/abslConfig.cmake:4 (find_dependency)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake:7 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/protobuf/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:19 (find_dependency)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-1vovda"
+      binary: "C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-1vovda"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "D:/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-1vovda'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d8654.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 08/12/2024 11:57:27.
+        
+        Project "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1vovda\\cmTC_d8654.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d8654.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1vovda\\Debug\\".
+          Creating directory "cmTC_d8654.dir\\Debug\\cmTC_d8654.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d8654.dir\\Debug\\cmTC_d8654.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d8654.dir\\Debug\\cmTC_d8654.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_d8654.dir\\Debug\\\\" /Fd"cmTC_d8654.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1vovda\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_d8654.dir\\Debug\\\\" /Fd"cmTC_d8654.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1vovda\\src.cxx"
+          src.cxx
+        C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1vovda\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1vovda\\cmTC_d8654.vcxproj]
+        Done Building Project "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1vovda\\cmTC_d8654.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1vovda\\cmTC_d8654.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1vovda\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1vovda\\cmTC_d8654.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.27
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/absl/abslConfig.cmake:4 (find_dependency)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake:7 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/protobuf/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:19 (find_dependency)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-ob7e0v"
+      binary: "C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-ob7e0v"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "D:/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-ob7e0v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f06d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 08/12/2024 11:57:28.
+        
+        Project "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob7e0v\\cmTC_f06d0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f06d0.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob7e0v\\Debug\\".
+          Creating directory "cmTC_f06d0.dir\\Debug\\cmTC_f06d0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f06d0.dir\\Debug\\cmTC_f06d0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f06d0.dir\\Debug\\cmTC_f06d0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_f06d0.dir\\Debug\\\\" /Fd"cmTC_f06d0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob7e0v\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_f06d0.dir\\Debug\\\\" /Fd"cmTC_f06d0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob7e0v\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob7e0v\\Debug\\cmTC_f06d0.exe" /INCREMENTAL /ILK:"cmTC_f06d0.dir\\Debug\\cmTC_f06d0.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-ob7e0v/Debug/cmTC_f06d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-ob7e0v/Debug/cmTC_f06d0.lib" /MACHINE:X64  /machine:x64 cmTC_f06d0.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob7e0v\\cmTC_f06d0.vcxproj]
+        Done Building Project "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob7e0v\\cmTC_f06d0.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob7e0v\\cmTC_f06d0.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob7e0v\\cmTC_f06d0.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/absl/abslConfig.cmake:4 (find_dependency)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake:7 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/protobuf/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:19 (find_dependency)"
+      - "D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "D:/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-xxina5"
+      binary: "C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-xxina5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "D:/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-xxina5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1b55d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 08/12/2024 11:57:29.
+        
+        Project "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxina5\\cmTC_1b55d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1b55d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxina5\\Debug\\".
+          Creating directory "cmTC_1b55d.dir\\Debug\\cmTC_1b55d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1b55d.dir\\Debug\\cmTC_1b55d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1b55d.dir\\Debug\\cmTC_1b55d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_1b55d.dir\\Debug\\\\" /Fd"cmTC_1b55d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxina5\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_1b55d.dir\\Debug\\\\" /Fd"cmTC_1b55d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxina5\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxina5\\Debug\\cmTC_1b55d.exe" /INCREMENTAL /ILK:"cmTC_1b55d.dir\\Debug\\cmTC_1b55d.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-xxina5/Debug/cmTC_1b55d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/CMakeScratch/TryCompile-xxina5/Debug/cmTC_1b55d.lib" /MACHINE:X64  /machine:x64 cmTC_1b55d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxina5\\cmTC_1b55d.vcxproj]
+        Done Building Project "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxina5\\cmTC_1b55d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxina5\\cmTC_1b55d.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\LENOVO\\Documents\\cppPortofolio\\NeuralNetwork\\implementation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxina5\\cmTC_1b55d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 1
+...

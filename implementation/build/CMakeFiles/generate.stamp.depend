@@ -1,0 +1,60 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindTIFF.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake
+C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/CMakeLists.txt
+C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/3.30.0/CMakeCXXCompiler.cmake
+C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/3.30.0/CMakeRCCompiler.cmake
+C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/CMakeFiles/3.30.0/CMakeSystem.cmake
+D:/vcpkg/installed/x64-windows/share/absl/abslConfig.cmake
+D:/vcpkg/installed/x64-windows/share/absl/abslConfigVersion.cmake
+D:/vcpkg/installed/x64-windows/share/absl/abslTargets-debug.cmake
+D:/vcpkg/installed/x64-windows/share/absl/abslTargets-release.cmake
+D:/vcpkg/installed/x64-windows/share/absl/abslTargets.cmake
+D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig-version.cmake
+D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake
+D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules-debug.cmake
+D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules-release.cmake
+D:/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake
+D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-config-version.cmake
+D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake
+D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-generate.cmake
+D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-module.cmake
+D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-options.cmake
+D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets-debug.cmake
+D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets-release.cmake
+D:/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets.cmake
+D:/vcpkg/installed/x64-windows/share/protobuf/vcpkg-cmake-wrapper.cmake
+D:/vcpkg/installed/x64-windows/share/quirc/quirc-config-debug.cmake
+D:/vcpkg/installed/x64-windows/share/quirc/quirc-config-release.cmake
+D:/vcpkg/installed/x64-windows/share/quirc/quirc-config.cmake
+D:/vcpkg/installed/x64-windows/share/tiff/vcpkg-cmake-wrapper.cmake
+D:/vcpkg/installed/x64-windows/share/utf8_range/utf8_range-config.cmake
+D:/vcpkg/installed/x64-windows/share/utf8_range/utf8_range-targets-debug.cmake
+D:/vcpkg/installed/x64-windows/share/utf8_range/utf8_range-targets-release.cmake
+D:/vcpkg/installed/x64-windows/share/utf8_range/utf8_range-targets.cmake
+D:/vcpkg/scripts/buildsystems/vcpkg.cmake

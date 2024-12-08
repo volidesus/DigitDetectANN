@@ -1,0 +1,10 @@
+^C:\USERS\LENOVO\DOCUMENTS\CPPPORTOFOLIO\NEURALNETWORK\IMPLEMENTATION\BUILD\CMAKEFILES\5B02D682F9A2E6E090FEC8A9339D97E9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation -BC:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/LENOVO/Documents/cppPortofolio/NeuralNetwork/implementation/build/MNISTNeuralNetwork.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
