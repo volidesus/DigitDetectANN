@@ -31,6 +31,6 @@
 *.out
 *.app
 
-/implementation/build
-/testing/build
-/training/build
+/implementation/build/
+/testing/build/
+/training/build/
